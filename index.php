@@ -10,13 +10,28 @@
     <?php
 
 
-    // echo"Hello World";
+    // echo"bir " , "iki " , "uc ";
 
-    print"Hello World";
+    // var_dump ("Salam Artyom")
 
+    // $name = 'Artyom';
+    // $surname = 'Mammadov';
+
+    // echo 'Menim adim $name, soyadim $surname'
+
+    $deyerler = [
+        'meyve1'=> 'alma', 
+        'meyve2'=>'armud', 
+        'meyve3'=>'heyva',
+        'meyve4'=>'nar', 
+        'meyve5'=>'gavali'];
+    echo "<pre>";
+      print_r($deyerler);
+    echo "<pre>";
 
 
     ?>
     
+
 </body>
 </html>

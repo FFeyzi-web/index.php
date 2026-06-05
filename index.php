@@ -19,16 +19,38 @@
 
     // echo 'Menim adim $name, soyadim $surname'
 
-    $deyerler = [
-        'meyve1'=> 'alma', 
-        'meyve2'=>'armud', 
-        'meyve3'=>'heyva',
-        'meyve4'=>'nar', 
-        'meyve5'=>'gavali'];
-    echo "<pre>";
-      print_r($deyerler);
-    echo "<pre>";
+    // $deyerler = [
+    //     'meyve1'=> 'alma', 
+    //     'meyve2'=>'armud', 
+    //     'meyve3'=>'heyva',
+    //     'meyve4'=>'nar', 
+    //     'meyve5'=>'gavali'];
+    // echo "<pre>";
+    //   print_r($deyerler['meyve1']);
+    // echo "<pre>";
 
+    // printf("Salam menim adim %s . Menim %d yasim var." ,"Artyom" , 20);
+
+    // file_put_contents("test.txt", "Salam artyom")
+
+    // $name = "Artyom ";
+    // $age = 20;
+    // $isActive = true;
+    // $balance = 100.50;
+    // $x = null ;
+
+    // $a = $b = $c = $d = 10;
+
+    // const PI = 3.14;
+    // echo PI ;
+
+    // PI = 3.15; 
+
+
+
+    // class Car {
+
+    // }
 
     ?>
     

@@ -54,13 +54,40 @@
 
 
 
-    $bir = 'Artyom';
+    // $bir = 'Artyom';
     
-    echo "Salam $bir .
-    Menim yasim 20dir 
-    " ;
+    // echo "Salam $bir \n menim yasim"; OLMADI
+
+    // $a = 10 ;
+    // $b = 'Artyom';
+    // $c = null;
+    // $d = [];
+    // $f = true;
+
+    // echo gettype($a) . "<br>"; //integer
+    // echo gettype($b) . "<br>"; //string
+    // echo gettype($c) . "<br>"; //NULL
+    // echo gettype($d) . "<br>"; //array
+    // echo gettype($f) . "<br>"; //boolean
 
 
+
+
+    // +
+    // -
+    // *
+    // /
+    // %
+
+    $a = 10;
+    $b = 5;
+    $c = $a + $b ;
+
+    echo "<h1>Toplama: $c</h1>";
+    echo "<h1>Cikarma:" . ($a - $b) . "</h1>";
+    echo "<h1>Carpma:" . ($a * $b) . "</h1>";
+    echo "<h1>Bolme:" . ($a / $b) . "</h1>";
+    echo "<h1>Modul:" . ($a % $b) . "</h1>";
 
 
 

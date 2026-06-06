@@ -10,7 +10,7 @@
     <?php
 
 
-    // echo"bir " , "iki " , "uc ";
+    //  echo"bir " , "iki " , "uc ";
 
     // var_dump ("Salam Artyom")
 
@@ -51,6 +51,19 @@
     // class Car {
 
     // }
+
+
+
+    $bir = 'Artyom';
+    
+    echo "Salam $bir .
+    Menim yasim 20dir 
+    " ;
+
+
+
+
+
 
     ?>
     

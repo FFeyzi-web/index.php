@@ -71,6 +71,11 @@
     // echo gettype($f) . "<br>"; //boolean
 
 
+    // $a = "6";
+    // $b = 6;
+
+    //  $c = $a == $b; // true
+    //  $d = $a ===$b; //false
 
 
     // +
@@ -79,16 +84,74 @@
     // /
     // %
 
-    $a = 10;
-    $b = 5;
-    $c = $a + $b ;
+    // $a = 10;
+    // $b = 5;
+    // $c = $a + $b ;
 
-    echo "<h1>Toplama: $c</h1>";
-    echo "<h1>Cikarma:" . ($a - $b) . "</h1>";
-    echo "<h1>Carpma:" . ($a * $b) . "</h1>";
-    echo "<h1>Bolme:" . ($a / $b) . "</h1>";
-    echo "<h1>Modul:" . ($a % $b) . "</h1>";
+    // echo "<h1>Toplama: $c</h1>";
+    // echo "<h1>Cikarma:" . ($a - $b) . "</h1>";
+    // echo "<h1>Carpma:" . ($a * $b) . "</h1>";
+    // echo "<h1>Bolme:" . ($a / $b) . "</h1>";
+    // echo "<h1>Modul:" . ($a % $b) . "</h1>";
 
+
+    // <
+    // >
+    // <=
+    // >=
+    // ==
+    // !=
+    // <>
+    // ===
+    // !==
+    // <==>
+
+    // echo 5 > 3; //true
+    // echo "<br>" ;
+
+    // echo 5 < 3; //false
+    // echo "<br>" ;
+
+    // echo 5 >= 3; //true
+    // echo "<br>" ;
+
+    // echo 5 <= 3; //false
+    // echo "<br>" ;
+
+    // echo 5 == 5; //true
+    // echo "<br>" ;
+
+    // echo 5 != 5; //false
+    // echo "<br>" ;
+
+    // echo 5 === 5; //true
+    // echo "<br>" ;
+
+    // echo 5 !== 5; //false
+    // echo "<br>" ;
+
+    // echo 5 <> 5; //false
+    // echo "<br>" ;
+
+    echo 5 <=> 3; //1
+    echo "<br>" ;
+
+    echo 3 <=> 5 ; //-1
+    echo "<br>" ;
+
+    echo 5 <=> 5; //0
+    echo "<br>" ;
+
+
+
+
+
+
+
+
+
+
+    
 
 
 

@@ -158,9 +158,23 @@
     //     echo "Bu sert dogrudur." ;
     // }
 
-    
+    // if ( 5 > 3 ) {
+        
+    //     if ( 2 < 4) {
+    //         print_r ("Bu sert dogrudur.");
+    //     }
+
+    // }
+    //  else if (  5 > 3 ) {
+    //     print_r ("Bu sert yanlisdir")
+    // }
+    // else {
+    //     print_r ("Bu sert ne dogrudur ne de yanlisdir.");
+    // }
 
 
+    // $a = 5 > 3 ? 'Bu sert dogrudur' : 'Bu sert yanlisdir.';
+    // print_r($a);
 
 
 

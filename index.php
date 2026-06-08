@@ -175,7 +175,38 @@
 
     // $a = 5 > 3 ? 'Bu sert dogrudur' : 'Bu sert yanlisdir.';
     // print_r($a);
+    
 
+    // $a = null ;
+
+    // $b = $a ?? null ?? 'Menim soyadim orlovdur';
+
+    // echo $b;
+
+
+    // $a = 10;
+    // echo $a++ . "<br>";//10
+    // echo $a++ . "<br>";//10
+    // echo $a++ . "<br>";//10
+    // echo $a++ . "<br>";//10
+    // echo $a++ . "<br>";//10
+    // echo $a++ . "<br>";//10
+    // echo $a++ . "<br>";//10
+    // echo $a++ . "<br>";//10
+    // echo $a++ . "<br>";//10
+    // echo $a . "<br>";//10
+
+    // $b = 10;
+    // echo ++$b . "<br>"; //11
+
+
+
+    // $c = 10;
+    // echo $c-- . "<br>"; //10
+
+
+    // $d = 10;
+    // echo --$d . "<br>"; //9
 
 
 

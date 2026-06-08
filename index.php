@@ -133,17 +133,32 @@
     // echo 5 <> 5; //false
     // echo "<br>" ;
 
-    echo 5 <=> 3; //1
-    echo "<br>" ;
+    // echo 5 <=> 3; //1
+    // echo "<br>" ;
 
-    echo 3 <=> 5 ; //-1
-    echo "<br>" ;
+    // echo 3 <=> 5 ; //-1
+    // echo "<br>" ;
 
-    echo 5 <=> 5; //0
-    echo "<br>" ;
+    // echo 5 <=> 5; //0
+    // echo "<br>" ;
 
 
+    // logical operatorlar
+    // echo (  true && false ) ; // true
 
+    // echo (  true || false ) ; // true
+
+    // echo (  !true ) ; // false
+
+    // echo (  !false ) ; // true
+
+    // echo ( 5 > 3 && 2 < 4) ; // true
+
+    // if ( 5 > 3 && 2 < 4) {
+    //     echo "Bu sert dogrudur." ;
+    // }
+
+    
 
 
 

@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <?php
+    <!-- <?php
 
 
     //  echo"bir " , "iki " , "uc ";
@@ -209,13 +209,88 @@
     // echo --$d . "<br>"; //9
 
 
+    // $bir = 5;
 
+    // $iki = &$bir;
 
+    // $iki = 10;
+
+    // echo $bir . "<br>"; //5
+    // echo $iki . "<br>"; //10
+
+    // if - eger
+
+    // $number = 5;
+    // if($number > 5) {
+
+    //     echo "Bu sayi 5'ten boyukdur";
+
+    // }
+    // elseif ($number == 5){
+    //     echo "Bu sayi 5'e beraberdir";
+    // }
     
+    // else {
+    //     echo "Bu sayi 5'ten kicikdir";
+    // }
+
+
+    // $a = [
+    //     'bir' => 1;
+    //     'iki' => 2;
+    //     'uc'  => 3;
+    // ]
+
+
+    // $a = [
+    //     'bir' => [
+    //         'iki' => [
+    //             'artyom'
+    //         ]
+    //     ],
+    // ];
+    // echo $a['bir']['iki'][0];
+
+    // $a = 5;
+
+    // echi is_int ($a) . "<br> " //true
+    // echi is_string ($a) . "<br> " //false
+    // echi is_null ($a) . "<br> " //false
+    // echi is_array ($a) . "<br> " //false
+    // echi is_bool ($a) . "<br> " //false
+    // echi is_float ($a) . "<br> " //false
+    // echi is_object ($a) . "<br> " //false
+    // echi is_resource ($a) . "<br> " //false
+
+    // $a = array (
+    //     "42",
+    //     1337,
+    //     0x247, 
+    //     0247,
+    //     null,
+    //     33242,
+    //     'alma'
+    // );
+    // for ($i = 0; $i < count ($a); $i++ ) {
+
+    //     echo$a[$i] . "<br>";
+
+    // };
+    // foreach () {
+
+    // };
 
 
 
-    ?>
+    ?> -->
+<!-- 
+    <?php $a = 5;  if($a > 5) : ?>
+    <p>Beli 6 ededi 5den  boyukdur</p>
+    <?php elseif ($a == 5) : ?>
+        <h1>beli 5 ededi 5e beraberdir</h1>
+    <?php else: ?>
+        <h1>beli 4 ededi 5den kicikdir</h1>
+    <?php endif ; ?> -->
     
 
 </body>

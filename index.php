@@ -283,10 +283,38 @@
 
     //24FF
 
-    for ($i=0;  $i < 5; $i++)
+    // for ($i=5, $j = 0;     $i > 0, $j < 5;     $i--, $j++) {
 
-        echo $i . "<br>";
+    //     echo $i . "<br>";
+    //     echo $j . "<br>";
+    // }
+
+    // for (;;) {
+    //         Sonsuz dovr yaradir
+
+    // }
+
+    $transports = [  
+                "auto" => ["mercedes", "bmw", "opel"],
+                 "samalyot" => ["boeing-490", "qatar airways", "boeing727"],
+                 "gemi" => ["oazis" , "mubariz", "zaqatala"]
+                ];
+
+    foreach ( $transports as $key => $array ) {
+
+        echo "<b> $key </b>";
+
+        foreach ($array as  $value   )   {
+            echo"<li>$value</li> ";     
         
+
+        }
+
+    }
+    
+    echo "<br>";
+    
+
     ?> 
 
 

@@ -6,8 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-
-    <!-- <?php
+ <?php
 
 
     //  echo"bir " , "iki " , "uc ";
@@ -273,7 +272,8 @@
     // );
     // for ($i = 0; $i < count ($a); $i++ ) {
 
-    //     echo$a[$i] . "<br>";
+    //     echo $a[$i] . "<br>";
+    // }
 
     // };
     // foreach () {
@@ -281,17 +281,15 @@
     // };
 
 
+    //24FF
 
-    ?> -->
-<!-- 
-    <?php $a = 5;  if($a > 5) : ?>
-    <p>Beli 6 ededi 5den  boyukdur</p>
-    <?php elseif ($a == 5) : ?>
-        <h1>beli 5 ededi 5e beraberdir</h1>
-    <?php else: ?>
-        <h1>beli 4 ededi 5den kicikdir</h1>
-    <?php endif ; ?> -->
-    
+    for ($i=0;  $i < 5; $i++)
+
+        echo $i . "<br>";
+        
+    ?> 
+
+
 
 </body>
 </html>

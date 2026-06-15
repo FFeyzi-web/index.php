@@ -294,25 +294,25 @@
 
     // }
 
-    $transports = [  
-                "auto" => ["mercedes", "bmw", "opel"],
-                 "samalyot" => ["boeing-490", "qatar airways", "boeing727"],
-                 "gemi" => ["oazis" , "mubariz", "zaqatala"]
-                ];
+    // $transports = [  
+    //             "auto" => ["mercedes", "bmw", "opel"],
+    //              "samalyot" => ["boeing-490", "qatar airways", "boeing727"],
+    //              "gemi" => ["oazis" , "mubariz", "zaqatala"]
+    //             ];
 
-    foreach ( $transports as $key => $array ) {
+    // foreach ( $transports as $key => $array ) {
 
-        echo "<b> $key </b>";
+    //     echo "<b> $key </b>";
 
-        foreach ($array as  $value   )   {
-            echo"<li>$value</li> ";     
+    //     foreach ($array as $value )   {
+
+    //         echo "<li>$value</li> ";     
         
+    //     }
 
-        }
-
-    }
+    // }
     
-    echo "<br>";
+    // echo "<br>";
     
 
     ?> 

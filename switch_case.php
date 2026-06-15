@@ -10,7 +10,7 @@
 
 <?php
 
-$fruitName = "qarpiz";
+// $fruitName = "qarpiz";
 
 // switch ($fruitName) {
 
@@ -32,15 +32,55 @@ $fruitName = "qarpiz";
 
 // }
 
-for ($i = 0; $i < 15; $i++) {
+// for ($i = 0; $i < 15; $i++) {
  
-    if ($i == 5) {
-        break;
-    }
+//     if ($i == 5) {
+//         break;
+//     }
 
-    echo "$i <br>";
+//     echo "$i <br>";
 
-}
+// }
+
+// for ($i = 0; $i < 15; $i++) {
+ 
+//     if ($i == 5) {
+
+//         continue;
+
+//     }
+
+//     echo "$i <br>";
+
+// }
+
+
+
+
+
+// for ($i = 0; $i < 15; $i++) {
+ 
+// switch ($i) {
+
+//     case 2:
+//         echo "Birinci hal <br>";
+//     continue 2;
+
+//     case 3:
+//          echo "Ikinci hal <br>";
+//     break;
+// }
+
+//     echo "Dovr $i <br>";
+
+// }
+
+
+
+
+
+
+
 
 
 

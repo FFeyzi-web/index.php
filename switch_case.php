@@ -76,8 +76,14 @@
 // }
 
 
+// function bir ( string $a) {
 
 
+// echo $a ."<br>";
+
+// }
+
+// bir('artyom');
 
 
 

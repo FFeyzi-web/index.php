@@ -53,13 +53,31 @@
 
 // php 7.4 - fn 'acar sozu'
 
-$topla = fn ($a)  => $a * 2 . "<br>";
+//oxlu funksiyalar
+
+// $x = 9;
+// $topla = fn (&$a)  => $a = 10  ;
 
 
-echo $topla (4);
+// echo $topla ($x) ."<br>";
 
+// echo $x;
 
+//return
 
+// function topla ($eded1, $eded2) {
+
+//     return $eded1 + $eded2;
+
+// }
+
+// function vurma () {
+
+//     return topla(5, 7) * topla(3, 4);
+
+// }
+
+// echo vurma (4, 7);
 
 
 ?>

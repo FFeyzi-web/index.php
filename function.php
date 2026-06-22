@@ -11,25 +11,52 @@
 
 <?php
 
+//GLOBALS
+
+// $x = 10;
+// $y = 20;
+
+// function topla () {
+
+//     echo $GLOBALS['x'] + $GLOBALS['y'] . "<br>" ;
+
+    
+
+// }
+
+// topla();
+
+// // echo "<pre>";
+// // print_r($GLOBALS);
+// // echo "</pre>";
+
+
+//GLOBALLA USE ARASINDA FERG ODURKI GLOBAL ANONIM FUNKSIYALARDA ISTIFADE OLUNUR USE SADE FUNKSIYALARDA
+
+
+//anonim funksiyalar - closure
+// & - referalnaya ssilka
+// $factor = 3;
+
+// $topla = function ($a) use (&$factor) {
+
+//     $factor = 7;
+//     echo $a * $factor . "<br>";
+
+// };
+
+// $topla(4);
+
+// echo $factor;
 
 
 
+// php 7.4 - fn 'acar sozu'
 
-$x = 10;
-$y = 20;
-
-function topla () {
-
-    global $x, $y ;
-
-    echo $x + $y . "<br>";
-
-}
-
-topla();
+$topla = fn ($a)  => $a * 2 . "<br>";
 
 
-
+echo $topla (4);
 
 
 

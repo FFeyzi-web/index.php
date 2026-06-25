@@ -80,6 +80,57 @@
 // echo vurma (4, 7);
 
 
+
+
+//factorial
+// function faktorial($n) {
+
+//     if ($n === 0) {
+//         return 1;
+//     } else {
+//         return $n * faktorial($n - 1);
+//     }
+
+// }
+
+// echo faktorial(5);
+
+
+// function sum(&$a) {
+
+//     $a = $a + 10;
+
+//     return $a;
+
+// }
+
+// $b = 10;
+
+// echo sum($b) . "<br>";
+// echo $b;
+
+
+//splat operatoru  ...
+
+//  ...$item
+
+// function outArguments  (...$item)  {
+
+//     print_r ($item);
+
+
+// }
+
+// outArguments ('php' , 'html');
+
+// function outArguments  (...$item)  {
+
+//      foreach ($items as item)
+
+
+//  }
+
+// outArguments ('php' , 'html');
 ?>
 
 

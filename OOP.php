@@ -13,23 +13,44 @@
 
 //OOP - Object Oriented Proqraming 
 
-class Car {
+class Riyaziyyat {
 
-    public $brand;
-    public $color;
+    public $eded1 = 4;
+    public $eded2 = 2;
 
-    public function start() {
-        echo"avtomobil start edildi";
-    }
+    public function topla() {
+        return $this -> eded1 + $this->eded2;
+       
+       }
+       public function topla() {
+        return $this -> eded1 + $this->eded2;
 
     //private
     //protected
 
 }
+$riyaziyyatFenni = new Riyaziyyat();
+echo $riyaziyyatFenni -> topla();
+
+
+
+
+
+
 //klass yaratmaq ve klasin obyektini yaratmaq ayri-ayri islerdir
 
-$car = new Car();
-$car ->start();
+// $car = new Car();
+// $car ->start();
+// $car ->brand = 'bmw <br>';
+// // echo $car ->brand;
+
+
+
+// $car2 = new Car();
+// $car2->brand = 'opel';
+// $car2->start();
+// echo $car2 -> brand ;
+
 
 
 

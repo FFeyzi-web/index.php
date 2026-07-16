@@ -141,6 +141,41 @@
 // echo $childTest->sayHelloFromChild() . "<br>";
 
 
+// class Counter {
+
+//     public $count = 0;
+
+//     public function increment() {
+//         $this->count++;
+//     }
+
+// }
+
+
+// $counter1 = new Counter();
+// $counter2 = new Counter();
+
+// echo $counter1->count . "<br>";
+// echo $counter2->count . "<br>";
+
+
+
+class Counter {
+
+    public static $count = 0;
+
+    public static function increment() {
+        self::$count++;
+    }
+
+}
+
+Counter::increment();
+Counter::increment();
+
+echo Counter::$count . "<br>";
+
+
 
 
 

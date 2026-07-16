@@ -81,31 +81,64 @@
 
 
 
-class Test {
+// class Test {
 
-    protected $name = "Artyom";
+//     protected $name = "Artyom";
     
-    protected function sayHello() {
-        return $this->name . "Salam";
-    }
+//     protected function sayHello() {
+//         return $this->name . "Salam";
+//     }
 
 
-}
+// }
 
-class ChildTest extends Test {
+// class ChildTest extends Test {
 
-    public function sayHelloFromChild() {
-        return $this->sayHello();
-    }
-}
-
-
+//     public function sayHelloFromChild() {
+//         return $this->sayHello();
+//     }
+// }
 
 
 
-$test = new Test();
-$childTest = new ChildTest();
-echo $childTest->sayHelloFromChild() . "<br>";
+
+
+// $test = new Test();
+// $childTest = new ChildTest();
+// echo $childTest->sayHelloFromChild() . "<br>";
+
+
+
+// class Test {
+
+//     private $name = "Artyom";
+    
+//     private function sayHello() {
+//         return $this->name . "Salam";
+//     }
+
+//     public function getName() {
+//         return $this->sayHello();
+//     }
+
+
+// }
+
+
+// class ChildTest extends Test {
+
+//     public function sayHelloFromChild() {
+//         return $this->getName();
+//     }
+// }
+
+
+
+
+
+// $test = new Test();
+// $childTest = new ChildTest();
+// echo $childTest->sayHelloFromChild() . "<br>";
 
 
 

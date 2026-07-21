@@ -265,34 +265,63 @@
 // $dog->name = "Buddy";
 // $dog->eat();
 
+// class A {
+//     public function methodA() {
+//         echo "Method A cagirirldi.<br>";
+//         }    
+// }
+
+// class B extends A {
+//     public function methodB() {
+//         echo "Method B cagirirldi.<br>";
+//         }    
+// }
+
+// class C extends B {
+//     public function methodC() {
+//         echo "Method C cagirirldi.<br>";
+//         }    
+// }
+
+// class D extends C {
+//     public function methodD() {
+//         echo "Method D cagirirldi.<br>";
+//         }    
+// }
+// $D = new D();
+// $D->methodA();
+// $D->methodB();
+// $D->methodC();
+// $D->methodD();
+
+
+//POLYMORPHISM - EYNI METOD ADLARI ILE FERQLI CLASSLARDA FERQLI ISLEYIS
+
 class A {
-    public function methodA() {
+    public function method() {
         echo "Method A cagirirldi.<br>";
         }    
 }
 
 class B extends A {
-    public function methodB() {
+    public function method() {
         echo "Method B cagirirldi.<br>";
         }    
 }
 
 class C extends B {
-    public function methodC() {
+    public function method() {
         echo "Method C cagirirldi.<br>";
         }    
 }
 
-class D extends C {
-    public function methodD() {
-        echo "Method D cagirirldi.<br>";
-        }    
-}
-$D = new D();
-$D->methodA();
-$D->methodB();
-$D->methodC();
-$D->methodD();
+$b = new B();
+$c = new C();
+$a = new A();
+
+$b->method();
+$c->method();
+$a->method();
 
 
 

@@ -180,6 +180,65 @@
 //INHERITANCE ( extends ) - MIRAS ALMAQ 
 
 
+
+// class Animal {
+
+//     public $name;
+
+//     public function eat() {
+
+//         echo $this->name . " yemek yeyir.<br>";
+
+//     }
+
+// }
+
+// class Dog extends Animal {
+
+//     public function bark(){
+
+//         echo $this->name . " hurur.<br>";
+
+//     }
+
+// }
+
+// $dog = new Dog();
+// $dog->name = "Buddy";
+// $dog->eat();
+// $dog->bark();
+
+
+// OVERRIDE - USTUNE YAZMAQ
+
+// class Animal {
+
+//     public $name;
+
+//     public function eat() {
+
+//         echo $this->name . " yemek yeyir.<br>";
+
+//     }
+
+// }
+
+// class Dog extends Animal {
+
+//     public function eat(){
+
+//         echo $this->name . " hurur.<br>";
+
+//     }
+
+// }
+
+// $dog = new Dog();
+// $dog->name = "Buddy";
+// $dog->eat();
+
+//PARENT::
+
 class Animal {
 
     public $name;
@@ -194,7 +253,7 @@ class Animal {
 
 class Dog extends Animal {
 
-    public function bark(){
+    public function eat(){
 
         echo $this->name . " hurur.<br>";
 
@@ -205,12 +264,6 @@ class Dog extends Animal {
 $dog = new Dog();
 $dog->name = "Buddy";
 $dog->eat();
-$dog->bark();
-
-
-
-
-
 
 
 

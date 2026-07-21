@@ -160,20 +160,59 @@
 
 
 
-class Counter {
+// class Counter {
 
-    public static $count = 0;
+//     public static $count = 0;
 
-    public static function increment() {
-        self::$count++;
+//     public static function increment() {
+//         self::$count++;
+//     }
+
+// }
+
+// Counter::increment();
+// Counter::increment();
+
+// echo Counter::$count . "<br>";
+
+
+
+//INHERITANCE ( extends ) - MIRAS ALMAQ 
+
+
+class Animal {
+
+    public $name;
+
+    public function eat() {
+
+        echo $this->name . " yemek yeyir.<br>";
+
     }
 
 }
 
-Counter::increment();
-Counter::increment();
+class Dog extends Animal {
 
-echo Counter::$count . "<br>";
+    public function bark(){
+
+        echo $this->name . " hurur.<br>";
+
+    }
+
+}
+
+$dog = new Dog();
+$dog->name = "Buddy";
+$dog->eat();
+$dog->bark();
+
+
+
+
+
+
+
 
 
 

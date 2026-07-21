@@ -297,31 +297,65 @@
 
 //POLYMORPHISM - EYNI METOD ADLARI ILE FERQLI CLASSLARDA FERQLI ISLEYIS
 
-class A {
-    public function method() {
-        echo "Method A cagirirldi.<br>";
-        }    
-}
+// class A {
+//     public function method() {
+//         echo "Method A cagirirldi.<br>";
+//         }    
+// }
 
-class B extends A {
-    public function method() {
-        echo "Method B cagirirldi.<br>";
-        }    
-}
+// class B extends A {
+//     public function method() {
+//         echo "Method B cagirirldi.<br>";
+//         }    
+// }
 
-class C extends B {
-    public function method() {
-        echo "Method C cagirirldi.<br>";
-        }    
-}
+// class C extends B {
+//     public function method() {
+//         echo "Method C cagirirldi.<br>";
+//         }    
+// }
 
-$b = new B();
-$c = new C();
-$a = new A();
+// $b = new B();
+// $c = new C();
+// $a = new A();
 
-$b->method();
-$c->method();
-$a->method();
+// $b->method();
+// $c->method();
+// $a->method();
+
+
+
+//INTERFACE - INTERFEYSLER CLASSLAR UCUN BIR KONTRAKTDIR. INTERFEYSLER CLASSLARIN IMPLEMENT ETMESI GEREKEN METODLARI TEYIN EDIR . 
+//INTERFEYSLER OZLERI METODLARIN ICINI DOLDURMUR , YALNIZ METOD ADLARINI TEYIN EDIR . CLASSLAR INTERFEYSLERI IMPLEMENT EDENDE ,
+// INTERFEYSDE TEYIN OLUNAN METODLARI OZLERINDE IMPLEMENT ETMELIDIRLER.
+
+// interface Engine {
+//     public function start();
+// }
+
+// interface Fuel {
+//     public function fuelType();
+//     public function fuelCapacity();
+// }
+
+// class Car  implements Engine, Fuel {
+//     public function start() {
+//         echo "Car engine started.<br>";
+//     }
+
+//     public function fuelType() {
+//         echo "Car uses petrol.<br>";
+//     }
+
+//     public function fuelCapacity() {
+//         echo "Car fuel capacity is 50 liters.<br>";
+//     }
+
+// }
+
+
+
+
 
 
 

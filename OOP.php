@@ -239,33 +239,60 @@
 
 //PARENT::
 
-class Animal {
+// class Animal {
 
-    public $name;
+//     public $name;
 
-    public function eat() {
+//     private function eat() {
 
-        echo $this->name . " yemek yeyir.<br>";
+//         echo $this->name . " yemek yeyir.<br>";
 
-    }
+//     }
 
+// }
+
+// class Dog extends Animal {
+
+//     public function eat(){
+//         parent::eat();
+//         echo $this->name . " hurur.<br>";
+
+//     }
+
+// }
+
+// $dog = new Dog();
+// $dog->name = "Buddy";
+// $dog->eat();
+
+class A {
+    public function methodA() {
+        echo "Method A cagirirldi.<br>";
+        }    
 }
 
-class Dog extends Animal {
-
-    public function eat(){
-        parent::eat();
-        echo $this->name . " hurur.<br>";
-
-    }
-
+class B extends A {
+    public function methodB() {
+        echo "Method B cagirirldi.<br>";
+        }    
 }
 
-$dog = new Dog();
-$dog->name = "Buddy";
-$dog->eat();
+class C extends B {
+    public function methodC() {
+        echo "Method C cagirirldi.<br>";
+        }    
+}
 
-
+class D extends C {
+    public function methodD() {
+        echo "Method D cagirirldi.<br>";
+        }    
+}
+$D = new D();
+$D->methodA();
+$D->methodB();
+$D->methodC();
+$D->methodD();
 
 
 

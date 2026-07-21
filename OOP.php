@@ -254,7 +254,7 @@ class Animal {
 class Dog extends Animal {
 
     public function eat(){
-
+        parent::eat();
         echo $this->name . " hurur.<br>";
 
     }
